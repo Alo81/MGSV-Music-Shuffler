@@ -15,7 +15,7 @@ namespace MGSV_Shuffler
                 music.ShuffleMusic();
                 var timer = new Stopwatch();
 
-                FileHelpers.LaunchGame();
+                //FileHelpers.LaunchGame();
 
                 timer.Start();
                 while (timer.ElapsedMilliseconds < 3000)
